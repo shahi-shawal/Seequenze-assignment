@@ -1,4 +1,5 @@
 import arrow from "../../assets/images/Page-1.svg"
+import image from "../../assets/images/Ellipse 1.svg"
 const Navbar = () => {
     return (
         <div className="ml-[240px]">
@@ -17,7 +18,7 @@ const Navbar = () => {
     <div className="flex gap-2">
       <div  className="btn btn-ghost btn-circle avatar">
         <div className="w-10 rounded-full">
-          <img alt="Tailwind CSS Navbar component" src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+          <img alt="Tailwind CSS Navbar component" src={image} />
         </div>
       </div>
       <img alt="Tailwind CSS Navbar component" src={arrow} />
