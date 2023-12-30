@@ -29,8 +29,8 @@ const DashboardNav = () => {
                
 
               
-                <NavLink to="simpleProjects" >
-                <li><a className="flex items-center gap-2 text-[16px]"><img src={image5} alt="" /> Sample Projects</a></li>
+                <NavLink to="sampleProjects" >
+                <li><a className="flex items-center gap-2 text-[16px]"><img src={image5} className="" alt="" /> Sample Projects</a></li>
                 </NavLink>
                 
 
